@@ -1,29 +1,32 @@
-# Qaqash AI Chatbot
+# Qaqash - IO App
 
-iOS app for Azerbaijan market.
+Aar designed chatbot app for Azerbaijan market.
 
-## Setup
+## Features
 
-```bash
-cd qaqash_app
+- Quick chat buttons
+- Premium/Prime model support
+-Dark theme
+-Glassmorphicm DIK
+
+def isPaid = false // Turn on for premium
+
+## Free Version
+-Model: qwen/qwen3-8b-instruct
+APIKey: OpenRouter FREE
+
+## Premium Version
+-Model: moonshot/kimi-k2.5 or minimax/minimax-m2.5
+APIKey: PAID (github)-PRIVATE
+
+Tun disabled: if (isPaid == true) {// Prime version}
+
+## Build
+
+```
 flutter pub get
 flutter build ios
 ```
 
-## Requirements
-- Flutter SDK
-- Xcode (for iOS)
-- OpenRouter API key
-
-## Features
-- AI Chat (Qwen/MiniMax)
-- Azerbaijani language support
-- Dark theme
-- Voice output (TTS)
-
-## App Store
-- Bundle ID: com.qaqash.app
-- Version: 1.0.0
-
----
-**Developer:** OnchEins
+## Link
+https://github.com/onchEins/qaqash-app

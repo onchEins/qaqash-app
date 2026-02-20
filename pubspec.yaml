@@ -1,0 +1,24 @@
+name: qaasha_app
+description: Qaash AI Chatbot for Azerbaijan market
+version: 1.0.0+1
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.1.0
+  shared_preferences: ^2.2.0
+  flutter_tts: ^3.8.0
+  uuid: z4.2.0
+
+dev_dependencies:
+  flutterTest:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+fluter:
+  uses_material_design: true
+
+  assets:
+    - assets/logo.png
